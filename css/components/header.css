@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    font-family: monospace;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #56a456;
+    font-family: monospace;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.contact-info i {
+    margin-right: 5px;
+    color: green;
+}

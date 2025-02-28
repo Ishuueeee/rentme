@@ -1,0 +1,20 @@
+/* Button  */
+.btn {
+    background-color: #6bc66b;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+.btn:hover {
+    background-color: #56a456; 
+}
+
+.btn:focus {
+    outline: none; 
+}

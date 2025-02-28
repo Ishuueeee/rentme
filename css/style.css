@@ -1,0 +1,122 @@
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+@import url('components/header.css');
+
+/* General Styles */
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section  */
+.hero-section {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+/* Hero Text  */
+.hero-section h1 {
+    font-size: 40px;
+}
+
+.hero-section h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+
+
+
+/* Main Content Section */
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.content h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+.content p {
+    font-size: 18px;
+    color: #7f8c8d;
+    max-width: 700px;
+    margin: 20px auto;
+
+}
+.ma-image {
+    width: 150px;
+    height: 150px;        
+    border-radius: 50%;   
+    object-fit: cover;    
+    margin-top: 20px;     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.container{
+  padding-left: 30px;
+}
+
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .hero-section{
+    text-align: center;
+    align-items: center;
+  }
+  
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%; 
+  }
+
+   .logo-text {
+    font-size: 18px;
+  }
+
+  .contact-info {
+    font-size: 12;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .hero-section{
+    text-align: center;
+    align-items: center;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+
+  .contact-info {
+    font-size: 12;
+  }
+
+  .card {
+    width: 100%; 
+    padding: 15px;
+  }
+}
+
+
